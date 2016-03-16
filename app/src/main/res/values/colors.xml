@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Indigo_colorPrimaryDark">#303f9f</color>
+    <color name="Indigo_colorPrimary">#ff40c8d0</color>
+    <color name="Indigo_nav_color">#4675FF</color>
+    <color name="white">#fff</color>
+    <color name="left_menu_divider">#ff0b62a2</color>
+    <color name="main_menu_divider">#b4b4b7</color>
+</resources>

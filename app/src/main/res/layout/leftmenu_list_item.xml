@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.teav.zhihtest.Activity.item">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/leftmenu_image"
+        android:layout_marginLeft="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/leftmenu_text"
+        android:layout_alignTop="@+id/leftmenu_image"
+        android:layout_toRightOf="@+id/leftmenu_image"
+        android:layout_toEndOf="@+id/leftmenu_image"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:gravity="center_vertical" />
+</RelativeLayout>
